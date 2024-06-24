@@ -5,7 +5,6 @@ import { Checkbox, Form, Input } from "antd";
 import { LockOutlined, ScheduleTwoTone, UserOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import "./index.css";
-
 function Login() {
   const onFinish = (values: any) => {
     console.log("Received values of form: ", values);
