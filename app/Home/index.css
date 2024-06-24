@@ -1,0 +1,32 @@
+.menu {
+  background-color: #aaa;
+}
+.custom-sider {
+  background-color: #aaa !important;
+}
+.search-container {
+  padding: 16px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espacio entre el input y el botón */
+}
+
+.date {
+  display: flex;
+  justify-content: space-around;
+}
+body,
+html,
+#root,
+.ant-layout {
+  background-color: #aaa;
+  height: 100%;
+  margin: 0;
+}
+
+.ant-layout-header {
+  background-color: var(--header-background-color);
+}
