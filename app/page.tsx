@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "antd";
 import { Checkbox, Form, Input } from "antd";
-import { LockOutlined, ScheduleTwoTone, UserOutlined } from "@ant-design/icons";
+import { LockOutlined, UserOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import "./index.css";
 function Login() {
