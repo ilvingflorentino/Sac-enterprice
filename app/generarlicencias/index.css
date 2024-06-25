@@ -1,18 +1,21 @@
+/* Estilos generales */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #aaa;
+  padding: 20px; /* Añadir padding para mejor visualización en pantallas pequeñas */
+  box-sizing: border-box;
 }
 
 .select-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60%; /* Hacer el div más grande */
+  width: 60%;
   padding: 60px;
-  background-color: rgba(87 121 157); /* Color de fondo del div */
+  background-color: rgba(87, 121, 157, 1); /* Corregido el color de fondo */
   border-radius: 10px;
 }
 
@@ -49,4 +52,47 @@ img.custom-image {
   width: 800px;
   height: auto;
   margin-bottom: 20px;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 1024px) {
+  .select-container {
+    width: 70%;
+    padding: 50px;
+  }
+
+  .horizontal-elements {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .element {
+    margin: 10px 0;
+  }
+
+  img.custom-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .select-container {
+    width: 80%;
+    padding: 40px;
+  }
+
+  img.custom-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .select-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  img.custom-image {
+    width: 100%;
+  }
 }
