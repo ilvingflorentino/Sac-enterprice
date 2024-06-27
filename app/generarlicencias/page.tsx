@@ -55,16 +55,16 @@ function GenerarLicencias() {
               onSearch={onSearch}
               options={[
                 {
-                  value: "Basic",
-                  label: "Basic",
+                  value: "Nueva",
+                  label: "Nueva",
                 },
                 {
-                  value: "Premiun",
-                  label: "Premiun",
+                  value: "Reinstalacion",
+                  label: "Reinstalacion",
                 },
                 {
-                  value: "Standar",
-                  label: "Standar",
+                  value: "Prueba",
+                  label: "Prueba",
                 },
               ]}
             />

@@ -1,9 +1,12 @@
+/* Estilos generales */
 .menu {
   background-color: #aaa;
 }
+
 .custom-sider {
   background-color: #aaa !important;
 }
+
 .search-container {
   padding: 16px;
 }
@@ -18,6 +21,7 @@
   display: flex;
   justify-content: space-around;
 }
+
 body,
 html,
 #root,
@@ -29,4 +33,58 @@ html,
 
 .ant-layout-header {
   background-color: var(--header-background-color);
+}
+
+/* Media queries para responsividad */
+@media (max-width: 1024px) {
+  .search-container {
+    padding: 12px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .date {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-sider {
+    display: none; /* Ocultar sidebar en pantallas pequeñas */
+  }
+
+  .search-container {
+    padding: 8px;
+  }
+
+  .search-bar {
+    gap: 16px;
+  }
+
+  .date {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-container {
+    padding: 4px;
+  }
+
+  .search-bar {
+    gap: 20px;
+  }
+
+  .date {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
 }

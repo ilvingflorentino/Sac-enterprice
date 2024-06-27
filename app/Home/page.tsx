@@ -86,6 +86,7 @@ const data: DataType[] = [
     Tipos: "Premiun",
     Active: "Si",
   },
+
   {
     Nl: "TQ69-8961-65PS-7619",
     Fa: "14-Junio-2024",
