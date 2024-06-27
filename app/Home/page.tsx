@@ -190,7 +190,7 @@ export default function Home() {
             </div>
           </div>
 
-          <Table columns={columns} dataSource={data} style={{ width: 1800 }} />
+          <Table columns={columns} dataSource={data} style={{ width: 1100 }} />
           <div className="link">
             <Link href={"/generarlicencias"}>
               <Button type="primary" className="Generarlicencia">
